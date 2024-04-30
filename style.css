@@ -1,0 +1,59 @@
+body{
+    background-image: url('image/back.jpg');
+    background-size: 100%;
+   
+}
+
+#heading,#total{
+    font-family: cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#button1{
+    margin-left: 400px;
+}
+
+#button1,#button2{
+    font-size: 22px;
+    border-radius: 10px;
+    font-family: fantasy;
+    background-color: burlywood;
+    
+    cursor: pointer;
+    /* margin: 50px; */
+
+}
+
+#currentTotal{
+    color: white;
+    font-size: 25px;
+}
+
+#total{
+    border: white 5px solid;
+}
+
+#display{
+    color: white;
+}
+
+#button2{
+    display: none;
+    /* margin: 50px; */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+#button2 {
+   margin-right: 500px;
+  }
+ 
+  
+img{
+    margin-left: 10px;
+}
